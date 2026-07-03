@@ -1,14 +1,19 @@
 # model1
-[Open Exercise 1](HTML/01/model1/index.html)
+![Banner](Project_images/model1.png)
 
 # model2
-[Open Exercise 1](HTML/01/model2/index.html)
+![Banner](Project_images/model21.png)
+![Banner](Project_images/model22.png)
 
 # model3
-[Open Exercise 1](HTML/01/model3/index.html)
+![Banner](Project_images/model3.png)
 
 # model4
-[Open Exercise 1](HTML/01/model4/index.html)
+![Banner](Project_images/model4.png)
 
 # model5
-[Open Exercise 1](HTML/01/model5/index.html)
+![Banner](Project_images/model51.png)
+![Banner](Project_images/model52.png)
+
+# model6
+![Banner](Project_images/model6.png)
