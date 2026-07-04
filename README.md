@@ -17,3 +17,6 @@
 
 # model6
 ![Banner](Project_images/model6.png)
+
+# model7
+![Banner](Project_images/model7.png)
