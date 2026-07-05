@@ -1,0 +1,64 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent .top {
+    background-color: rgb(27, 26, 25);
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px
+}
+
+.input {
+    padding: 7px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+select {
+    background-color: white;
+}
+
+input[type="button"] {
+    background-color: rgb(8, 141, 141);
+    color: white;
+}
+
+.parent .bottom {
+    background-color: rgb(8, 141, 141);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.bottom h3 {
+    font-size: 30px;
+    font-weight: lighter;
+    opacity: 80%;
+}
+
+.bottom p {
+    font-style: italic;
+    opacity: 80%;
+}
