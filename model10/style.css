@@ -1,0 +1,101 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: rgb(131, 131, 131);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly
+}
+
+.line {
+    width: 1px;
+    background-color: white;
+    position: relative;
+}
+
+.line::after {
+    content: "OR";
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    color: rgb(131, 131, 131);
+    font-weight: 900;
+    position: absolute;
+    top: calc(50% - 20px);
+    left: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product {
+    background-image: linear-gradient(to bottom, black 0%, black 33.33%, white 33.33%, white 100%);
+    padding: 20px 50px 50px 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product .content {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5px 1px #a3a2a2
+}
+
+.product .content p {
+    opacity: 70%;
+    position: relative;
+    margin-left: 20px;
+}
+
+.product .content p::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(80, 160, 34);
+    vertical-align: baseline;
+    position: absolute;
+    left: -20px;
+    top: 3px;
+}
+
+
+.btn {
+    background-color: rgb(80, 160, 34);
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+h1 {
+    color: white;
+}
+
+span {
+    color: rgb(80, 160, 34);
+}
