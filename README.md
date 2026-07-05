@@ -2,7 +2,7 @@
 ![Banner](Project_images/model1.png)
 
 # model2
-![Banner](Project_images/model21.png)
+![Banner](Project_images/mode121.png)
 ![Banner](Project_images/model22.png)
 
 # model3
@@ -20,3 +20,6 @@
 
 # model7
 ![Banner](Project_images/model7.png)
+
+# model8
+![Banner](Project_images/model8.png)
