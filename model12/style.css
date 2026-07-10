@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    padding: 10px;
+}
+
+header {
+    padding: 100px;
+    background-image: url(https://imgs.search.brave.com/LFFSkoGTYEsJ-aME5Yc7NILUr3jZ6dZ0lzk3K9lb8Ik/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMjcv/ODk4LzM4My9zbWFs/bC9mcmVzaC1pdGFs/aWFuLWJyZWFkLW9u/LWEtZGFyay1zdXJm/YWNlLXBob3RvLmpw/Zw);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: black;
+    color: white;
+}
+
+.continer {
+    width: 800px;
+}
+
+header h3,
+footer h3 {
+    font-size: 30px;
+    font-family: auto;
+}
+
+header h3 {
+    margin-bottom: 40px;
+}
+
+header h3 sub {
+    font-family: auto;
+    color: rgb(73, 201, 62);
+    font-size: 35px;
+}
+
+header h1 {
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+header p {
+    line-height: 1.7;
+    margin-bottom: 50px;
+}
+
+header button,
+main .final-call button {
+    padding: 10px 50px;
+    font-weight: 700;
+    background-color: rgb(73, 201, 62);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition-duration: 1s;
+    transition-property: all;
+}
+
+header button:hover,
+main .final-call button:hover {
+    background-color: rgb(143, 223, 136);
+}
+
+main .benifits,
+main .customer-say,
+main .final-call {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 70px 100px;
+}
+
+main .benifits div {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+
+}
+
+main .benifits>p {
+    text-align: center;
+    line-height: 1.7;
+    padding: 20px 350px;
+}
+
+main .benifits>h2,
+main .customer-say>h2 {
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+}
+
+main .benifits div figure {
+    width: 250px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .benifits div figure img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+main .benifits div figure p {
+    line-height: 1.7;
+    opacity: 50%;
+    text-align: center;
+}
+
+main .customer-say {
+    background-image: linear-gradient(rgba(27, 26, 26, 0.8), rgba(31, 29, 29, 0.8)), url("https://imgs.search.brave.com/P9dbAf9rAQHsMkihPu4PKdFoDqViIz0kMkFsyTqcYBc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTQ1/ODUxMDIzNC9waG90/by9kYXJrLWdyYXkt/d29vZC1ncmFpbi1n/cnVuZ2UtdGV4dHVy/ZS13b29kZW4tc3Vy/ZmFjZS1hYnN0cmFj/dC10ZXh0dXJlZC1i/YWNrZ3JvdW5kLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1P/V01xZjBfRUZHelpK/c0FzWXNvWWtPSzBu/VkhPR0lrNlNCb3BQ/TVE5cVNBPQ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+main .customer-say>h2 {
+    font-style: italic;
+}
+
+main .customer-say p {
+    font-size: 20px;
+}
+
+main .customer-say .qute {
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(73, 201, 62);
+    margin: 50px 0 30px 0;
+}
+
+main .customer-say figure {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .customer-say figure img {
+    width: 70px;
+    border-radius: 50%;
+}
+
+main .customer-say figure .stars {
+    color: rgb(73, 201, 62);
+}
+
+main .feather {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+
+main .feather figure {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .feather figure img {
+    margin-bottom: 30px;
+}
+
+main .feather figure p,
+main .final-call p {
+    line-height: 1.7;
+    text-align: center;
+    font-family: auto;
+}
+
+main .feather figure p {
+    width: 300px;
+    opacity: 70%;
+}
+
+main .final-call h2 {
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+    line-height: 1.7;
+}
+
+main .final-call p {
+    font-size: 20px;
+}
+
+footer {
+    background-color: rgb(46, 43, 48);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
