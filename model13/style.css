@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+}
+
+main .image {
+    position: relative;
+}
+
+main .image .cover {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+main .image .avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -35px;
+    right: 35px;
+    border: 2px solid #eee;
+}
+
+main .descreption {
+    width: 400px;
+    padding: 20px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+main .descreption h2 {
+    font-weight: 100;
+    font-size: 1.5em;
+}
+
+main .descreption .bio {
+    color: rgb(89, 89, 104);
+}
+
+main .descreption .bio span {
+    color: black;
+    opacity: 50%;
+}
+
+main .descreption .about {
+    line-height: 1.6;
+    height: 5em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    opacity: 50%;
+}
+
+
+main .progress {
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+main .progress .percentage {
+    width: 100%;
+    height: 20px;
+    background-color: #eee;
+    position: relative;
+}
+
+main .progress .percentage::before {
+    content: "";
+    width: 90%;
+    height: 20px;
+    background-color: #515052;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+}
+
+main .progress .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .progress .container div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.value {
+    font-family: 1.25em;
+    font-weight: 600;
+}
+
+.low {
+    opacity: 50%;
+}
