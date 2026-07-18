@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #2b2424;
+}
+
+.top,
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.top {
+    gap: 15px;
+    padding: 60px 120px;
+}
+
+.button {
+    padding: 50px;
+}
+
+.separato {
+    background-color: #eeeeee79;
+    height: 1px;
+    width: 100%;
+}
+
+.center div.odd,
+.center div.even {
+    padding: 20px 60px;
+    width: 100%;
+    text-align: center;
+    opacity: 50%;
+}
+
+.even {
+    background-color: rgb(75, 66, 66);
+}
+
+.btn {
+    padding: 8px 20px;
+    border: 1px solid #eeeeee79;
+    text-align: center;
+    font-weight: 500;
+}
+
+sub {
+    font-size: .5em;
+    font-weight: lighter;
+}
+
+section {
+    transition: 1s;
+    transition-timing-function: ease-out;
+}
+
+section:hover {
+    background-color: rgb(161, 161, 255);
+    height: 120%;
+    transform: scaleY(1.2);
+    box-shadow: 0px 0px 4px 0px black
+}
+
+section:hover .center div.odd,
+section:hover .center div.even {
+    padding: 20px 50px;
+    width: 100%;
+    text-align: center;
+}
+
+section:hover .even {
+    background-color: rgb(161, 161, 255);
+}
+
+.border {
+    border-right: 1px solid #4d4949;
+}
